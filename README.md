@@ -1,18 +1,14 @@
-# Othmarodev Filaxy
+# Filaxy Homebrew Tap
 
-## How do I install these formulae?
+Homebrew tap for [Filaxy Labs](https://filaxylabs.co) apps.
 
-`brew install othmarodev/filaxy/<formula>`
+## Filaxy PDF Converter
 
-Or `brew tap othmarodev/filaxy` and then `brew install <formula>`.
+Free, fully-offline macOS app — high-fidelity **PDF → Word (.docx)** with an
+original coordinate-mapping engine + fidelity verification.
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "othmarodev/filaxy"
-brew "<formula>"
+```bash
+brew install --cask othmarodev/filaxy/filaxy-pdf-converter
 ```
 
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+Requires macOS 13+ on Apple Silicon · Source & releases: <https://github.com/othmarodev/filaxy-pdf-converter>
